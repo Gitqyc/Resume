@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>個人履歷及作品</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<style>
+		section {
+			/* min-height: 100vh; */
+			padding-top: 40px;
+			padding-bottom: 40px;
+			text-align: center;
+		}
+			section:nth-child(2n+1) {
+			background-color: #eee;
+		}
+	</style>
+
+	<style>
+		.card-img-top {
+			width: 100%;
+			height: 12rem;
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="continer">
+		<div class="row">
+			<img src="https://fakeimg.pl/1920x600/17A2B8/FFF/?text=個人履歷及作品&font=noto">
+		</div>
+	</div>
+
+	<section>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md mb-4">
+					<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="./images/2016_10_20_22_16_04.jpg" width="250px" alt="學習經歷">
+					<div class="card-body">
+						<h5 class="card-title">學習經歷</h5>
+						<p class="card-text">過往學歷</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterEducation">檢視</a>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-md mb-4">
+					<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="./images/iStock_000009401431XSmall.jpg" width="250px" alt="工作經歷">
+					<div class="card-body">
+						<h5 class="card-title">工作經歷</h5>
+						<p class="card-text">工作經驗簡述</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterResume">檢視</a>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-md mb-4">
+					<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="./images/Contacto-Banner-L-2.jpg" alt="關於我">
+					<div class="card-body">
+						<h5 class="card-title">關於我</h5>
+						<p class="card-text">目前狀態及聯絡資訊</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterAbout">檢視</a>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-md mb-4">
+					<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="./images/bootstrap-stack.png" alt="作品">
+					<div class="card-body">
+						<h5 class="card-title">作品1</h5>
+						<p class="card-text">Bootstrap</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterWorks1">檢視</a>
+					</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section>
+
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-left">
+					<h2>直接聯絡我</h2>
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">電子郵件</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="請輸入電郵">
+							<small id="emailHelp" class="form-text text-muted">不會透露你的個人資料</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">內容</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="請輸入內容"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">送出</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--  -->
+	<!-- Button trigger modal -->
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenterEducation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-white bg-info">
+					<h5 class="modal-title" id="exampleModalCenterTitle">學習經歷</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						<ul>
+							<li>2012 - 2016 / 大學<br>
+								<h4>國立貓咪科技大學 企業管理系</h4>
+								<p>修習行銷相關課程（行銷管理、服務業行銷、廣告研究），累積行銷企劃撰寫與團隊溝通能力</p>
+							</li>
+							<li>2015.09 - 2016.02 / 交換學生
+								<h4>@捷克 University of Catman 經濟學系</h4>
+								<p>與超過十國學生進行文化交流，培養尊重包容態度，精進英語口語表達能力</p>
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenterResume" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-white bg-info">
+					<h5 class="modal-title" id="exampleModalCenterTitle">工作經歷</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>目前狀態：大數據養成班
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenterAbout" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-white bg-info">
+					<h5 class="modal-title" id="exampleModalCenterTitle">關於我</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p style="text-align: center"><img src="../../../images/char_goomba.png" width="150px"></p>
+					<p>姓名：Daniel<br>
+						電話：0123456789<br>
+						郵件：<a href="mailto:myResume@bigdata.org.tw?subject=您好">myResume@bigdata.org.tw</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenterWorks1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-white bg-info">
+					<h5 class="modal-title" id="exampleModalCenterTitle">作品1</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>這個網頁就是了，使用 <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4.1.1</a> 製作<br>
+					完成於：<br>
+					2018/06/24 v0.1<br>
+					2018/06/25 v0.2 更換 CDN(均由 Bootstrap 網站下載)<br>
+					<ul>
+						<li>Bootstrap 從 4.0.0 到 4.1.1</li>
+						<li>jquery 從 3.2.1 到 3.3.1</li>
+						<li>cloudflare 從 1.12.9 到1.14.3</li>
+					</ul>
+					講師：Kenny Liao</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
